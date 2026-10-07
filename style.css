@@ -1,0 +1,89 @@
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 1em;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.main-content {
+  margin-top: 60px; /* Adjust this value based on the height of your navbar */
+  padding: 20px;
+}
+.main-content section {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+#home -h1{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#home p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+
+portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.portfolio-item {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+}
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+.portfolio-item h3 {
+  margin: 0.5em 0;
+}
+.portfolio-item p {
+  padding: 0 1em 1em;
+  font-size: 0.9em;
+  color: #666;
+}
+
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+

@@ -107,3 +107,4 @@ This lab will assess your ability to apply CSS selectors, properties, values, po
     - Save your CSS file.
     - Open the `index.html` file in a web browser to view the changes.
     - Ensure all the tests are passing.
+# phase-0-js-css-fundamentals-lab-2

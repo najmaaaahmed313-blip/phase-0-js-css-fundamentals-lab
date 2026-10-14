@@ -24,7 +24,7 @@
   font-weight: bold;
 }
 .main-content {
-  margin-top: 60px; /* Adjust this value based on the height of your navbar */
+  margin-top: 60px; 
   padding: 20px;
 }
 .main-content section {

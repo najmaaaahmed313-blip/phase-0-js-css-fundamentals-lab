@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navigation Bar -->
@@ -23,28 +24,59 @@
       <p>Discover my work and projects below.</p>
     </section>
 
-    <section id="portfolio" class="portfolio-container">
-      <article class="portfolio-item">
-        <h3>Project 1</h3>
-        <p>Description of Project 1.</p>
-        <img src="https://via.placeholder.com/300" alt="Project 1">
-      </article>
-      <article class="portfolio-item">
-        <h3>Project 2</h3>
-        <p>Description of Project 2.</p>
-        <img src="https://via.placeholder.com/300" alt="Project 2">
-      </article>
-      <article class="portfolio-item">
-        <h3>Project 3</h3>
-        <p>Description of Project 3.</p>
-        <img src="https://via.placeholder.com/300" alt="Project 3">
-      </article>
+    <section id="about" class="about-section">
+      <div class="about-copy">
+        <p class="about-kicker">A little about this portfolio</p>
+        <h2>Thoughtful design, brought to life with code.</h2>
+        <p>This is a collection of small web experiences built to make everyday tasks clearer, more useful, and more enjoyable.</p>
+        <p>From responsive layouts to interactive JavaScript, each project is a chance to experiment, solve a problem, and keep learning.</p>
+        <a class="about-link" href="#portfolio">Explore the projects <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <img class="about-image" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Laptop displaying a code editor on a bright workspace">
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+      <header class="portfolio-heading">
+        <p class="portfolio-eyebrow">Selected work</p>
+        <h2>Small ideas, made interactive.</h2>
+      </header>
+      <div class="portfolio-container">
+        <article class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A colorful spread of fresh food and salad ingredients">
+          <div class="project-copy">
+            <p class="project-type">HTML &middot; CSS &middot; JavaScript</p>
+            <h3>Recipe Finder</h3>
+            <p>Browse a fresh recipe collection and filter meals by ingredients.</p>
+          </div>
+        </article>
+        <article class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="An open planner and notebook on a desk">
+          <div class="project-copy">
+            <p class="project-type">HTML &middot; CSS &middot; JavaScript</p>
+            <h3>Task Tracker</h3>
+            <p>Organize daily tasks, mark completed items, and keep a clear list.</p>
+          </div>
+        </article>
+        <article class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A colorful retro arcade game setup">
+          <div class="project-copy">
+            <p class="project-type">JavaScript game</p>
+            <h3>Memory Match</h3>
+            <p>Flip cards, find matching pairs, and keep track of each round.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>For questions or collaboration, visit my <a href="https://github.com/najmaaaahmed313-blip" target="_blank" rel="noopener noreferrer">GitHub profile</a>.</p>
     </section>
   </main>
 
   <!-- Footer -->
   <footer id="footer">
-    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
   </footer>
 </body>
 </html>
